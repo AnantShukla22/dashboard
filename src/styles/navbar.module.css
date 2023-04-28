@@ -2,8 +2,8 @@
   position: absolute;
   top: 0;
   min-height: 4.3rem;
+  width: calc(100% - 15rem);
   border-bottom: 3px solid rgb(255, 255, 255);
-  width: 84.3vw;
   backdrop-filter: blur(50px);  
   background: #0000003c;
 }
