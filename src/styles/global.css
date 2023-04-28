@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle, rgba(112,56,91,1) 30%, rgba(18,29,59,1) 91%);
+    
+    color: rgb(255, 255, 255);
+    margin-left:15rem;
+    margin-top: 4.3rem;
+    
+}
+
+body::-webkit-scrollbar {
+    display: none;
+ 
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+ }
+:root{
+
+    --primary-color:#00aae8;
+    --secondary-color:#e100ff;
+    --tertiary-color:#00bd00;
+    --background-color:#121d3b;
+    --background-color2:#70385b;
+
+}

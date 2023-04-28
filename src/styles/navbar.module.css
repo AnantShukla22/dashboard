@@ -1,0 +1,78 @@
+.navbar_container {
+  position: absolute;
+  top: 0;
+  min-height: 4.3rem;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  width: 84.3vw;
+  backdrop-filter: blur(50px);  
+  background: #0000003c;
+}
+
+.navbar_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3.5rem;
+}
+.navbar_items > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar_items > ul > li {
+  margin: 0.6rem;
+  position: relative;
+}
+.navbar_items > ul > li:nth-child(1) > span {
+  font-size: 0.9rem;
+}
+.navbar_items > ul > li:nth-child(3) > .navbar_icon {
+  font-size: 1.9rem;
+}
+.navbar_icon {
+  font-size: 1.6rem;
+}
+.noti_count {
+  font-size: 0.9rem;
+  position: absolute;
+  top: -5px;
+  left: -30px;
+  background-color: var(--primary-color);
+  height: 1rem;
+  width: 1rem;
+  text-align: center;
+  border-radius: 100%;
+}
+.navbar_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  gap: 1rem;
+  padding: 0 0.3rem 0 0;
+}
+
+.navbar_input > input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0.7rem 1rem 0.5rem 0.3rem;
+  color: white;
+}
+
+.navbar_input input::placeholder {
+  font-size: 0.9rem;
+  /* position: absolute; */
+  color: white;
+}
+.search_icon {
+  color: white;
+}
+.navbar_items > ul > li > img {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  object-fit: cover;
+}

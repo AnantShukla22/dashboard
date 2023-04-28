@@ -1,0 +1,15 @@
+.list_container {
+  padding: 3rem 3.5rem;
+  height:85vh;  
+}
+
+.list_wrapper{
+  background: rgba(59, 59, 59, 0.642);
+  color: rgb(225, 224, 224);
+}
+.table_heading {
+  font-size: 2.2rem;
+  /* font-weight: 600; */
+  margin: 0 0 1rem 0;
+  /* color: var(--primary-color); */
+}

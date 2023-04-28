@@ -1,0 +1,33 @@
+.columnGraph_container {
+  background:#121d3b86 ;
+  backdrop-filter: blur(50px);
+  padding: 1rem;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.columnGraph_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.columnGraph_header > h3 {
+  margin-bottom: 2rem;
+}
+.columnGraph_icons {
+  display: flex;
+  gap: 0.7rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.columnGraph_icon1 {
+  background-color: var(--primary-color);
+  padding: 0.2rem;
+  border-radius: 100%;
+  color: white;
+}
+
+.columnGraph_graph{
+  height: 5rem;
+  width: 5rem;
+}
+

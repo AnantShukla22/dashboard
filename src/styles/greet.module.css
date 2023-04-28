@@ -1,0 +1,38 @@
+.greet_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greet_left{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.greet_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color2);
+}
+.greet_timeline{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    padding: 10px 3rem 10px 1.2rem; 
+}
+.greet_icon{
+    background-color: var(--background-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    padding:  0 .8rem;
+    cursor: pointer;
+}
+

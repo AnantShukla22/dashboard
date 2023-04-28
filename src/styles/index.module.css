@@ -1,0 +1,31 @@
+.homes_container {
+  padding: 3rem 3.5rem;
+  gap: 1rem;
+}
+.greet_container {
+  margin-bottom: 3rem;
+}
+.homes_widgets{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) ;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.homes_charts{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0 0 4rem 0;
+}
+
+.table{
+  border: 1px rgb(0, 128, 255) dotted;
+  position: relative;
+  padding: 2rem;
+}
+.table_heading{
+
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  z-index: 1;
+}

@@ -1,0 +1,63 @@
+.widget_container {
+    background: linear-gradient(90deg, rgba(111, 0, 89, 0.566) 30%, rgba(75, 0, 41, 0.559) 78%);
+    border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  color: rgb(196, 195, 195);
+}
+
+.widget_left,
+.widget_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.widget_left {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.widget_right {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.widget_counter {
+  font-size: 2.2rem;
+}
+.widget_title {
+  font-size: 1.15rem;
+}
+
+.widget_link {
+  font-size: 0.85rem;
+  border-bottom: 1px dotted rgb(255, 255, 255);
+  cursor: pointer;
+}
+.widget_percentage {
+  display: flex;
+  align-items: center;
+}
+.positive {
+  color: var(--tertiary-color);
+}
+.negative {
+  color: red;
+}
+
+.widget_icon {
+  align-self: flex-end;
+  font-size: 1.9rem;
+  padding: 4px;
+  border-radius: 7px;
+  cursor: pointer;
+}
