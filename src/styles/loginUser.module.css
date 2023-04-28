@@ -1,0 +1,86 @@
+.loginUser_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 4.3rem);
+}
+
+.loginUser_card {
+  height: 28rem;
+  width: 23rem;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  background: #121d3b86;
+  backdrop-filter: blur(50px);
+  padding: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loginUser_icon {
+  height: 8rem;
+  width: 8rem;
+  margin-bottom: 1.5rem;
+}
+.input_container {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.input_holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_holder > svg {
+  color: black;
+  background-color: rgb(225, 225, 225);
+  height: 2rem;
+  width: 2.3rem;
+  padding: 7px;
+  border-radius: 5px 0 0 5px;
+}
+.input_holder > input {
+  padding: 8px;
+  width: 17rem;
+  background-color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 0 5px 5px 0;
+}
+.loginUser_card > form > button {
+  width: 100%;
+  padding: 7px;
+}
+.loginUser_forgotPass{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.loginUser_forgotPass > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  margin: 10px 0;
+}
+.loginUser_forgotPass>a{
+    color: white;
+text-decoration: none;
+}
+
+.loginUser_socialMethods{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 2rem;
+}
+.loginUser_socialMethods>svg{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}

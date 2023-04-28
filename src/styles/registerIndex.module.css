@@ -1,0 +1,28 @@
+.register_index_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 4.3rem);
+  gap: 6rem;
+  overflow: hidden;
+}
+.register_category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.6rem;
+  cursor: pointer;
+  text-decoration: none;   ;
+}
+.register_category > img {
+  width: 14rem;
+  height: 14rem;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.register_category > span {
+  font-size: 1.7rem;
+  color: white;
+  text-decoration: none;
+}

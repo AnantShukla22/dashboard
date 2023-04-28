@@ -1,6 +1,10 @@
 .widget_container {
-    background: linear-gradient(90deg, rgba(111, 0, 89, 0.566) 30%, rgba(75, 0, 41, 0.559) 78%);
-    border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(111, 0, 89, 0.566) 30%,
+    rgba(75, 0, 41, 0.559) 78%
+  );
+  border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;

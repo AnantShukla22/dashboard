@@ -5,8 +5,8 @@
 }
 
 body{
-    background: radial-gradient(circle, rgba(112,56,91,1) 30%, rgba(18,29,59,1) 91%);
-    
+    background: linear-gradient(to top left, var(--background-color2) 15%,var(--background-color));
+    /* overflow: hidden; */
     color: rgb(255, 255, 255);
     margin-left:15rem;
     margin-top: 4.3rem;

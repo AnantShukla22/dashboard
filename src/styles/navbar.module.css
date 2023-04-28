@@ -1,6 +1,7 @@
 .navbar_container {
-  position: absolute;
+  position: fixed;
   top: 0;
+  left: 15rem;
   min-height: 4.3rem;
   width: calc(100% - 15rem);
   border-bottom: 3px solid rgb(255, 255, 255);
