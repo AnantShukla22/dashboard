@@ -9,6 +9,9 @@ import Employee from "@/components/forms/Employee";
 const user = () => {
   const { query } = useRouter();
 
+  let name=query.user
+  name=name && name[0].toUpperCase() + name.slice(1);
+
   return (
     <div className={styles.registerUser_container}>
       <div className={styles.registerUser_content}>
@@ -18,12 +21,12 @@ const user = () => {
 
         <div className={styles.registerUser_right}>
           <div className={styles.registerUser_heading}>
-            <h1>{query.user}</h1>
+            <h1>{name}</h1>
           </div>
 
-          {query.user === "Student" && <Student />}
-          {query.user === "Employee" && <Employee />}
-          {query.user === "Professor" && <Professor />}
+          {query.user === "student" && <Student />}
+          {query.user === "employee" && <Employee />}
+          {query.user === "professor" && <Professor />}
         </div>
       </div>
     </div>

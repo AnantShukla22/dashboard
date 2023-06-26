@@ -8,7 +8,7 @@ const pieWidget = ({ data }) => {
     datasets: [
       {
         data: [10, 40],
-        backgroundColor: ["#121d3b", "#70385b"], 
+        backgroundColor: ["#7b715f", "#fde8bf"], 
         // this needs to be changed
         // data: data.map((item) => item.gender),
       },

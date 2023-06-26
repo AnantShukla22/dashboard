@@ -5,6 +5,7 @@
   height: calc(100vh - 4.3rem);
   gap: 6rem;
   overflow: hidden;
+  color: var(--tertiary-color);
 }
 .register_category {
   display: flex;
@@ -23,6 +24,5 @@
 }
 .register_category > span {
   font-size: 1.7rem;
-  color: white;
   text-decoration: none;
 }

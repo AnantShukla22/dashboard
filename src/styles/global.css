@@ -5,8 +5,7 @@
 }
 
 body{
-    background: linear-gradient(to top left, var(--background-color2) 15%,var(--background-color));
-    /* overflow: hidden; */
+   background-color: var(--background-color);
     color: rgb(255, 255, 255);
     margin-left:15rem;
     margin-top: 4.3rem;
@@ -20,10 +19,15 @@ body::-webkit-scrollbar {
  }
 :root{
 
-    --primary-color:#00aae8;
+    /* --primary-color:#00aae8;
     --secondary-color:#e100ff;
     --tertiary-color:#00bd00;
     --background-color:#121d3b;
-    --background-color2:#70385b;
+    --background-color2:#70385b; */
 
+    --primary-color:#00b4b7;
+    --secondary-color:#e4ab00;
+    --tertiary-color:#5c574c;
+    --background-color:#fdf7eb;
+    --background-color2:#ffffff;
 }

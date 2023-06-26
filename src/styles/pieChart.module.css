@@ -7,11 +7,12 @@
 
 .pieChart_wrapper {
   padding: 1rem;
-  background:#121d3b86 ;
-  backdrop-filter: blur(50px);  border-radius: 10px;
+  background-color: var(--background-color2);
+  border-radius: 10px;
 }
 .pieChart_header > h3 {
   margin-bottom: 0.5rem;
+  color: var(--primary-color);  
 }
 .pieChart_graph>canvas {
   width: 14rem;

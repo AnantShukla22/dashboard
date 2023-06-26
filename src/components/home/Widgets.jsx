@@ -40,7 +40,7 @@ switch(type){
             title:"Gender",
             link:"Total Genders",
             icon:<Man2OutlinedIcon className={styles.widget_icon}
-            style={{backgroundColor:"##d6d602",color:"blue"}}/>
+            style={{backgroundColor:"#f6e0b5",color:"#026b6de"}}/>
           };
           break;
     default:

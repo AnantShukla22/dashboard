@@ -11,8 +11,8 @@ const ColumnGraph = ({ data }) => {
       {
         label: "B.tech Year",
         data: [1,2,3,5,7],
-        borderColor: '#2596be',
-        backgroundColor: '#9325be9f',
+        borderColor: '#e4ab00',
+        backgroundColor: '#7b715f',
         pointStyle:{
         }
       },

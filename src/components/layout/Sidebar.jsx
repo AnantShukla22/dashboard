@@ -28,8 +28,9 @@ const Sidebar = () => {
           <p className={styles.icon_title}>UTILITIES</p>
           <li>
             <PersonOutlineIcon className={styles.sidebar_icon} />
-            <span  className={styles.addUserSpan}>
-              <Link href="/login">Login</Link> / <Link href="/register">Register</Link>
+            <span className={styles.addUserSpan}>
+              <Link href="/loginUser">Login</Link> /{" "}
+              <Link href="/register">Register</Link>
             </span>
           </li>
 
@@ -41,6 +42,7 @@ const Sidebar = () => {
             <NotificationsNoneIcon className={styles.sidebar_icon} />
             <Link href="/">Notifications</Link>
           </li>
+          
           <p className={styles.icon_title}>SERVICE</p>
           <li>
             <SettingsSuggestIcon className={styles.sidebar_icon} />

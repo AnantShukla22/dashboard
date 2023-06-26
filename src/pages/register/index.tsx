@@ -16,7 +16,7 @@ const index = () => {
         className={styles.register_category}
       >
         <Image src={logo2} alt="" onClick={() => {
-          setUserTitle("Student"), router.push(`/register/${userTitle}`)}}/>
+          setUserTitle("student"), router.push(`/register/${userTitle}`)}}/>
         <span>Student</span>
       </div>
       <div
@@ -24,7 +24,7 @@ const index = () => {
     
       >
         <Image src={logo3} alt="" onClick={() => {
-          setUserTitle("Professor"),
+          setUserTitle("professor"),
           router.push(`/register/${userTitle}`)
           }} />
         <span>Professor</span>
@@ -33,7 +33,7 @@ const index = () => {
         className={styles.register_category}
       >
         <Image src={logo1} alt="" onClick={() => {
-          setUserTitle("Employee"), router.push(`/register/${userTitle}`)}}/>
+          setUserTitle("employee"), router.push(`/register/${userTitle}`)}}/>
         <span>Employee</span>
       </div>
     </div>

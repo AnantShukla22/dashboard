@@ -1,12 +1,12 @@
 .table_container {
-  background: transparent;
   color: white;
+  color: var(--primary-color);
 }
 
 .table_cellWrapper {
   display: flex;
   align-items: center;
-  color: aliceblue;
+  color: var(--tertiary-color);
 }
 .table_cellWrapper > img {
   width: 2.1rem;
@@ -14,13 +14,14 @@
   object-fit: cover;
   border-radius: 100%;
   margin-right: 0.8rem;
+  
 }
 .table_head {
   color: var(--secondary-color);
   font-weight: 700;
 }
 .table_row > td {
-  color: white;
+  color: var(--primary-color);
 }
 .table_cell {
   margin: 0;

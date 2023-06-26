@@ -4,9 +4,8 @@
   left: 15rem;
   min-height: 4.3rem;
   width: calc(100% - 15rem);
-  border-bottom: 3px solid rgb(255, 255, 255);
-  backdrop-filter: blur(50px);  
-  background: #0000003c;
+  border-bottom: 3px solid var(--tertiary-color);
+  background-color: var(--background-color);
 }
 
 .navbar_wrapper {
@@ -25,12 +24,11 @@
 .navbar_items > ul > li {
   margin: 0.6rem;
   position: relative;
-}
-.navbar_items > ul > li:nth-child(1) > span {
-  font-size: 0.9rem;
+  color: var(--tertiary-color);
 }
 .navbar_items > ul > li:nth-child(3) > .navbar_icon {
-  font-size: 1.9rem;
+  font-size: 1.6rem;
+  
 }
 .navbar_icon {
   font-size: 1.6rem;
@@ -41,6 +39,7 @@
   top: -5px;
   left: -30px;
   background-color: var(--primary-color);
+  color: var( --background-color2);
   height: 1rem;
   width: 1rem;
   text-align: center;
@@ -53,23 +52,26 @@
   border: 1px solid white;
   gap: 1rem;
   padding: 0 0.3rem 0 0;
+  border: 1px solid #94876a;
+  border-radius: 5px;
 }
 
 .navbar_input > input {
+  width: 16rem;
   border: none;
   outline: none;
-  background: transparent;
   padding: 0.7rem 1rem 0.5rem 0.3rem;
-  color: white;
+  color: var(    --background-color2);
+  border-radius: 5px 0 0px 5px;
+  border-right: 1px solid #94876a;
 }
 
 .navbar_input input::placeholder {
   font-size: 0.9rem;
-  /* position: absolute; */
-  color: white;
+  color: var(--tertiary-color);
 }
 .search_icon {
-  color: white;
+  color: var(--tertiary-color);
 }
 .navbar_items > ul > li > img {
   height: 2.5rem;
